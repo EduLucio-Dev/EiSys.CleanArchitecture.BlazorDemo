@@ -1,0 +1,6 @@
+@EiSys.CleanArchitecture.WebAPI_HostAddress = http://localhost:5082
+
+GET {{EiSys.CleanArchitecture.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
