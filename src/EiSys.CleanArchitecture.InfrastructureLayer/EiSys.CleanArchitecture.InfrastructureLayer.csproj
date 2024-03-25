@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EiSys.CleanArchitecture.ApplicationLayer\EiSys.CleanArchitecture.ApplicationLayer.csproj" />
+  </ItemGroup>
+
 </Project>
