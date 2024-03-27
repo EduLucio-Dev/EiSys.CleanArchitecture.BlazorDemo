@@ -11,9 +11,9 @@ namespace EiSys.CleanArchitecture.DomainLayer.Entities
         {
             ValidateDomain(nome, endereco);
         }
-        public Funcionario(int id,string nome, string endereco)
+        public Funcionario(Guid id,string nome, string endereco)
         {
-            DomainExceptionValidation.when(id < 0, "Valor do Id Invalido");
+            DomainExceptionValidation.when(id == Guid.Empty, "Valor do Id Invalido");
             Id = id;
             ValidateDomain(nome, endereco);
         }
