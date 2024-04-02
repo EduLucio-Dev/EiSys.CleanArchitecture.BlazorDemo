@@ -12,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//Pega a string de conexão pelo aplicativo appDbContext que configuramos
+// Configura o contexto do banco de dados para usar SQL Server com a string de conexão padrão e registra o repositório de funcionários como um serviço com escopo.
 builder.Services.AddDbContext<AppDbContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IFuncionario, FuncionarioRepo>();
 var app = builder.Build();
