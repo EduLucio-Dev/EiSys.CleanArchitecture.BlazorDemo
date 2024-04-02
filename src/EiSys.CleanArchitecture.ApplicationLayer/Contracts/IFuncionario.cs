@@ -9,6 +9,6 @@ namespace EiSys.CleanArchitecture.ApplicationLayer.Contracts
         Task<ServiceResponse> UpdateAsync(Funcionario funcionario);
         Task<ServiceResponse> DeleteAsync(Guid Id);
         Task<List<Funcionario>> GetAsync();
-        Task<List<Funcionario>> GetByIdAsync(Guid id);
+        Task<Funcionario> GetByIdAsync(Guid id);
     }
 }
