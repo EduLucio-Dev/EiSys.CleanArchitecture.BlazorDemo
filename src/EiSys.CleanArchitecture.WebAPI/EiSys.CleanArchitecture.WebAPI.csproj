@@ -18,6 +18,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\EiSys.CleanArchitecture.ApplicationLayer\EiSys.CleanArchitecture.ApplicationLayer.csproj" />
+		<ProjectReference Include="..\EiSys.CleanArchitecture.InfrastructureLayer\EiSys.CleanArchitecture.InfrastructureLayer.csproj" />
 	</ItemGroup>
 
 </Project>
