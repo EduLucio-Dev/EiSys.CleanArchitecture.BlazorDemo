@@ -32,7 +32,7 @@ namespace EiSys.CleanArchitecture.DomainLayer.Entities
                 DomainExceptionValidation.when(string.IsNullOrEmpty(endereco), "Endereco Invalido!");
             }else if (endereco.Length < 10) 
             {
-                DomainExceptionValidation.when(endereco.Length < 10, "Endereço muito curto, minimo 10 caracteres.")
+                DomainExceptionValidation.when(endereco.Length < 10, "Endereço muito curto, minimo 10 caracteres.");
             }
 
             Nome = nome;
