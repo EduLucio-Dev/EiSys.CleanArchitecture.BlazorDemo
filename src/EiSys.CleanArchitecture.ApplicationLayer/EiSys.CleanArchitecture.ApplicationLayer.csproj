@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EiSys.CleanArchitecture.DomainLayer\EiSys.CleanArchitecture.DomainLayer.csproj" />
+	  <ProjectReference Include="..\EiSys.CleanArchitecture.DomainLayer\EiSys.CleanArchitecture.DomainLayer.csproj" />
   </ItemGroup>
 
 </Project>
