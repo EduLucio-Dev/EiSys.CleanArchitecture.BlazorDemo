@@ -1,9 +1,9 @@
 ﻿using EiSys.CleanArchitecture.ApplicationLayer.DTOs;
 using EiSys.CleanArchitecture.DomainLayer.Entities;
 
-namespace EiSys.CleanArchitecture.ApplicationLayer.Contracts
+namespace EiSys.CleanArchitecture.ApplicationLayer.Services
 {
-    public interface IFuncionario
+    public interface IFuncionarioService
     {
         Task<ServiceResponse> AddAsync(Funcionario funcionario);
         Task<ServiceResponse> UpdateAsync(Funcionario funcionario);
