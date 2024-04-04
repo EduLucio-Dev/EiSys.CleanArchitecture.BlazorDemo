@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EiSys.CleanArchitecture.WebAPI.Controllers
 {
-    
+    //Controles do funcionario
+
     [Route("api/[controller]")]
     [ApiController]
     public class FuncionarioController : ControllerBase
