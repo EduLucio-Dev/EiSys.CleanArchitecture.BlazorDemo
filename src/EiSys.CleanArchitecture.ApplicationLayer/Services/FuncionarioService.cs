@@ -6,7 +6,7 @@ using System.Net.Http.Json;
 
 namespace EiSys.CleanArchitecture.ApplicationLayer.Services
 {
-    internal class FuncionarioService : IFuncionarioService
+    public class FuncionarioService : IFuncionarioService
     {
         private readonly HttpClient httpClient;
 
